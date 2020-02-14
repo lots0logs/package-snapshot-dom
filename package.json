@@ -1,50 +1,39 @@
 {
   "name": "@wildpeaks/snapshot-dom",
-  "version": "1.6.0",
+  "version": "1.4.0",
   "description": "Converts a DOM element to a JSON tree",
   "author": "Cecile Muller",
   "license": "MIT",
+  "eslintConfig": {
+    "extends": "@wildpeaks/commonjs"
+  },
+  "main": "src/snapshot.js",
+  "files": [
+    "src/snapshot.js",
+    "test/snapshot.tests.js"
+  ],
+  "scripts": {
+    "test:lint": "eslint ./src/**/*.js",
+    "test:specs": "mocha",
+    "test": "npm run test:lint && npm run test:specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wildpeaks/package-snapshot-dom.git"
+  },
   "keywords": [
     "wildpeaks",
     "assert",
     "dom"
   ],
-  "homepage": "https://github.com/wildpeaks/package-snapshot-dom#readme",
-  "repository": "https://github.com/wildpeaks/package-snapshot-dom",
   "bugs": {
     "url": "https://github.com/wildpeaks/package-snapshot-dom/issues"
   },
-  "eslintConfig": {
-    "extends": "@wildpeaks/commonjs"
-  },
-  "prettier": {
-    "printWidth": 120,
-    "tabWidth": 4,
-    "useTabs": true,
-    "bracketSpacing": false
-  },
-  "greenkeeper": {
-    "commitMessages": {
-      "dependencyUpdate": "feat: update ${dependency}",
-      "devDependencyUpdate": "chore: update ${dependency}"
-    }
-  },
-  "main": "src/snapshot.js",
-  "files": [
-    "src",
-    "lib"
-  ],
-  "scripts": {
-    "lint": "eslint ./src/**/*.js",
-    "test": "mocha test/*.spec.js"
-  },
+  "homepage": "https://github.com/wildpeaks/package-snapshot-dom#readme",
   "devDependencies": {
-    "@wildpeaks/eslint-config-commonjs": "8.0.0",
-    "eslint": "6.8.0",
-    "express": "4.17.1",
-    "jsdom": "16.1.0",
-    "mocha": "7.0.1",
-    "prettier": "1.19.1",
-    "puppeteer": "2.1.1"
+    "@wildpeaks/eslint-config-commonjs": "7.3.0",
+    "eslint": "6.7.2",
+    "jsdom": "15.2.1",
+    "mocha": "6.2.2"
   }
 }

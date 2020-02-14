@@ -1,7 +1,0 @@
-{
-	"recommendations": [
-		"EditorConfig.editorconfig",
-		"dbaeumer.vscode-eslint",
-		"WallabyJs.wallaby-vscode"
-	]
-}
