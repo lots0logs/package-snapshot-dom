@@ -17,6 +17,7 @@
 !/.gitattributes
 !/.gitignore
 !/.npmrc
+!/.travis.yml
 !/azure-pipelines.yml
 !/src
 !/test
