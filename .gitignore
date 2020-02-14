@@ -1,19 +1,31 @@
+
+#-----------------------------------------------------------------------------#
 # Ignore everything by default:
+#-----------------------------------------------------------------------------#
+
 /*
 /*/
 
-# But allow these files and folders:
+
+#-----------------------------------------------------------------------------#
+# But allow those files and folders:
+#-----------------------------------------------------------------------------#
+
 !/LICENSE
 !/README.md
 !/.editorconfig
 !/.gitattributes
 !/.gitignore
 !/.npmrc
-!/.prettierignore
+!/azure-pipelines.yml
 !/src
 !/test
 !/package.json
-!/azure-pipelines.yml
 
-# But make sure to ignore these regardless:
-WAS *
+
+#-----------------------------------------------------------------------------#
+# But make sure to ignore those regardless:
+#-----------------------------------------------------------------------------#
+
+.DS_Store
+Thumbs.db
