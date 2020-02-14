@@ -10,7 +10,10 @@
     "dom"
   ],
   "homepage": "https://github.com/wildpeaks/package-snapshot-dom#readme",
-  "repository": "https://github.com/wildpeaks/package-snapshot-dom",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wildpeaks/package-snapshot-dom.git"
+  },
   "bugs": {
     "url": "https://github.com/wildpeaks/package-snapshot-dom/issues"
   },
