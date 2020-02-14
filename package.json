@@ -31,8 +31,7 @@
   },
   "main": "src/snapshot.js",
   "files": [
-    "src",
-    "lib"
+    "src"
   ],
   "scripts": {
     "lint": "eslint ./src/**/*.js",

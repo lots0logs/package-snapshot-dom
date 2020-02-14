@@ -13,7 +13,6 @@
 !/.prettierignore
 !/.vscode
 !/src
-!/lib
 !/test
 !/package.json
 !/azure-pipelines.yml
